@@ -7,7 +7,6 @@ const tabs = (headerSelector, tabSelector, contentSelector, activeClass) => {
         content.forEach(item => {
             item.style.display = 'none';
         });
-
         tab.forEach(item => {
             item.classList.remove(activeClass);
         });
